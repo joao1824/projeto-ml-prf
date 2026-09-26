@@ -33,15 +33,4 @@ Para rodar fora do Colab, instalar as bibliotecas do `requirements.txt` e trocar
 | `docs/` | Documento final em ABNT |
 | `requirements.txt` | Bibliotecas usadas |
 
-## Resultado no conjunto de teste (acidentes de 2025)
 
-| Modelo | Recall | F1 | ROC-AUC |
-|---|---|---|---|
-| Regressão Logística | 0,722 | 0,252 | 0,853 |
-| KNN | 0,070 | 0,116 | 0,657 |
-
-O modelo escolhido foi a Regressão Logística, que encontrou 270 dos 374 acidentes fatais de 2025.
-
-## Autor
-
-[SEU NOME COMPLETO]
