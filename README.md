@@ -37,6 +37,16 @@ Não é preciso mudar caminho nenhum: a primeira célula usa a pasta `dados/` qu
 
 A célula que compara as técnicas de balanceamento leva cerca de sete minutos, porque testa quatro combinações de modelo e técnica com validação cruzada.
 
+## Visualização dos dados
+
+Como método para visualização dos dados previstos pelo modelo, é possível utilizar o arquivo `mapa_acidentes_sc.html`:
+
+<img width="900" height="450" alt="image" src="https://github.com/user-attachments/assets/56bfacb4-3d87-4746-9837-3dab4df3abb3" />
+
+A página mostra a disposição dos acidentes previstos pelas rodovias do estado de SC, classificando-os com base na precisão do modelo, e oferece filtros por categoria de previsão.
+
+Para acessar a página, basta executar o arquivo localmente, tendo em vista que os dados estão disponibilizados dentro do código, sem dependência de API.
+
 ## Estrutura
 
 | Arquivo | Conteúdo |
@@ -44,6 +54,7 @@ A célula que compara as técnicas de balanceamento leva cerca de sete minutos, 
 | `Projeto_ML_PRF.ipynb` | Notebook com o pipeline completo |
 | `dados/` | Arquivos CSV da PRF |
 | `docs/` | Documento final em ABNT |
+| `mapa_acidentes_sc.html` | Visualização dos dados |
 | `requirements.txt` | Bibliotecas usadas |
 
 ## Resultado no conjunto de teste (2025)
@@ -69,7 +80,9 @@ As duas técnicas de reamostragem ficam dentro do pipeline, então rodam só nas
 
 O tratamento do desbalanceamento foi baseado em:
 
-- MAFORT, E. V.; KAPPEL, M. A. A. Técnicas de aprendizado de máquina para predição de gravidade de acidentes em rodovias do estado do Rio de Janeiro. REIC, v. 23, n. 1, 2025.
 - GABARDO, A. M. P. et al. Highway to... determining fatal outcomes in traffic accidents based on police reports. BRACIS, 2025.
+- MAFORT, E. V.; KAPPEL, M. A. A. Técnicas de aprendizado de máquina para predição de gravidade de acidentes em rodovias do estado do Rio de Janeiro. REIC, v. 23, n. 1, 2025.
+- MALAQUIAS, E. O.; TOSTA, M. de C. R.; CHAVES, G. de L. D; RIBEIRO, G. M. Acidentes em rodovias brasileiras: um estudo com técnicas de Machine Learning para classificar a causa das ocorrências. ANPET, 2021.
+- MATTOS, V. G. P. de; VASCONCELOS, P. H. V. de; PARCIANELLO, Y.; KOZIEVITCH, N. P.; BERARDI, R. Visualização dos dados abertos da Polícia Rodoviária Federal sobre acidentes nas rodovias brasileiras. SBBD, 2019.
 - SOUSA, G. I. L. de; RODRIGUES, M. C. de O.; ROSA, A. G. F. Aprendizado de máquina na análise de sinistros de trânsito: um estudo na zona urbana de Teresina - PI. Scientia Generalis, v. 7, n. 1, 2026.
 - FIORENTINI, N.; LOSA, M. Handling imbalanced data in road crash severity prediction by machine learning algorithms. Infrastructures, v. 5, n. 7, 2020.
